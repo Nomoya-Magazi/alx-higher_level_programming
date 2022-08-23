@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-def print_last_digit(number):
-    if number >= 0:
-        ld = number % 10
-    else:
-        ld = number % -10
-        ld *= -1
 
-    print("{:d}".format(ld), end='')
-    return (ld)
+
+def uppercase(str):
+    for i in range(len(str)):
+        uni_code = ord(str[i])
+        if uni_code >= 97 and uni_code <= 122:
+            uni_code = uni_code - 32
+        print("{}".format(chr(uni_code)), end='')
+    print()
