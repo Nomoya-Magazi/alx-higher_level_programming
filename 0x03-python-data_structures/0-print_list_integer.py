@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-my_list = []
-for i in range():
-my_list.append(print_list_integer(my_list=[])):
-for i in my_list:
-print('{}'.format(i))
+
+def print_list_integer(my_list=[]):
+    for j in range(len(my_list)):
+        print("{:d}".format(my_list[j]))
